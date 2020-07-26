@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "636dbbe5cf4bc68804ddecb21740dc9a",
+    "revision": "0d72739f6063e4b2d7734260eca2e58d",
     "url": "/matrix_inverter2/index.html"
   },
   {
-    "revision": "59b0dd60f62f0f871ec5",
+    "revision": "ef69f76e76b63ed846f3",
     "url": "/matrix_inverter2/static/css/main.5edc3b7e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/matrix_inverter2/static/js/2.1533be0e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "59b0dd60f62f0f871ec5",
-    "url": "/matrix_inverter2/static/js/main.8a28a1f1.chunk.js"
+    "revision": "ef69f76e76b63ed846f3",
+    "url": "/matrix_inverter2/static/js/main.97cf642c.chunk.js"
   },
   {
     "revision": "bf1a5750ac9f92198975",
