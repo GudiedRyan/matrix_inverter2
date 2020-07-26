@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/matrix_inverter2/static/css/main.5edc3b7e.chunk.css",
-    "main.js": "/matrix_inverter2/static/js/main.43f4823d.chunk.js",
-    "main.js.map": "/matrix_inverter2/static/js/main.43f4823d.chunk.js.map",
+    "main.js": "/matrix_inverter2/static/js/main.8a28a1f1.chunk.js",
+    "main.js.map": "/matrix_inverter2/static/js/main.8a28a1f1.chunk.js.map",
     "runtime-main.js": "/matrix_inverter2/static/js/runtime-main.9ffe2409.js",
     "runtime-main.js.map": "/matrix_inverter2/static/js/runtime-main.9ffe2409.js.map",
     "static/js/2.1533be0e.chunk.js": "/matrix_inverter2/static/js/2.1533be0e.chunk.js",
     "static/js/2.1533be0e.chunk.js.map": "/matrix_inverter2/static/js/2.1533be0e.chunk.js.map",
     "index.html": "/matrix_inverter2/index.html",
-    "precache-manifest.0bded6a31d5c7d66ba2169df9e7e4a06.js": "/matrix_inverter2/precache-manifest.0bded6a31d5c7d66ba2169df9e7e4a06.js",
+    "precache-manifest.8439c1c001808b16b2c35d05b3b5bd7e.js": "/matrix_inverter2/precache-manifest.8439c1c001808b16b2c35d05b3b5bd7e.js",
     "service-worker.js": "/matrix_inverter2/service-worker.js",
     "static/css/main.5edc3b7e.chunk.css.map": "/matrix_inverter2/static/css/main.5edc3b7e.chunk.css.map",
     "static/js/2.1533be0e.chunk.js.LICENSE.txt": "/matrix_inverter2/static/js/2.1533be0e.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.9ffe2409.js",
     "static/js/2.1533be0e.chunk.js",
     "static/css/main.5edc3b7e.chunk.css",
-    "static/js/main.43f4823d.chunk.js"
+    "static/js/main.8a28a1f1.chunk.js"
   ]
 }
