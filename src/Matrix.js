@@ -22,7 +22,8 @@ class ThreeByThree extends React.Component {
             b31: "",
             b32: "",
             b33: "",
-            det: ""
+            det: "",
+            showDet: false
         }
     }
     render(){
@@ -48,6 +49,12 @@ class ThreeByThree extends React.Component {
                   </tr>
                 </table>
                 </div>
+                <br />
+                <button onClick={this.calculateDet}>Get determinant</button><button onClick={this.reset}>Reset</button>
+                <div>
+                  <br />
+                  {this.state.showDet? <p>det = {this.state.det}</p> : <p></p>}
+                </div>
             </div>
         )
     }
@@ -58,8 +65,35 @@ class ThreeByThree extends React.Component {
       }
     calculateDet = () => {
         this.setState(state => ({
-
+          det: state.a11*state.a22*state.a33 - state.a11*state.a23*state.a32 - 
+          state.a12*state.a21*state.a33 + state.a12*state.a23*state.a31 + 
+          state.a13*state.a21*state.a32 - state.a13*state.a22*state.a31,
+          showDet: true
         }))
+    }
+    reset = () => {
+      this.setState(state => ({
+            a11: "",
+            a12: "",
+            a13: "",
+            a21: "",
+            a22: "",
+            a23: "",
+            a31: "",
+            a32: "",
+            a33: "",
+            b11: "",
+            b12: "",
+            b13: "",
+            b21: "",
+            b22: "",
+            b23: "",
+            b31: "",
+            b32: "",
+            b33: "",
+            det: "",
+            showDet: false
+      }))
     }
 }
 
